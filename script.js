@@ -60,7 +60,7 @@ const themes = [
   'Любимые телепередачи'
 ];
   
-const conditions = ['первая буква', 'вторая буква', 'последняя буква'];
+const conditions = ['Первая буква', 'Вторая буква', 'Последняя буква'];
 
 function getRandomItem(list) {
   const randomNumber = Math.round(Math.random() * (list.length - 1));
